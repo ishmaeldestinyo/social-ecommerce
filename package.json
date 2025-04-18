@@ -1,0 +1,21 @@
+{
+  "name": "social_ecommerce",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "Destiny <theimpactindex@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon run src/index.js --watch",
+    "start": "node run src/index.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
