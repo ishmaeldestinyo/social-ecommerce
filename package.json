@@ -1,14 +1,5 @@
 {
-  "name": "social_ecommerce",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "type": "module",
   "author": "Destiny <theimpactindex@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "dev": "node api.js && nodemon run src/index.js --watch",
-    "start": "node api.js && node run src/index.js"
-  },
   "dependencies": {
     "compression": "^1.8.0",
     "cors": "^2.8.5",
@@ -17,5 +8,14 @@
     "helmet": "^8.1.0",
     "mongoose": "^8.13.2",
     "nodemon": "^3.1.9"
-  }
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "social_ecommerce",
+  "scripts": {
+    "dev": "node init && nodemon run src/index.js --watch",
+    "start": "node init && node run src/index.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }
