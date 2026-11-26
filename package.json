@@ -13,8 +13,8 @@
   "main": "src/index.js",
   "name": "social_ecommerce",
   "scripts": {
-    "dev": "node init && nodemon run src/index.js --watch",
-    "start": "node init && node run src/index.js"
+    "dev": "nodemon run src/index.js --watch",
+    "start": "node run src/index.js"
   },
   "type": "module",
   "version": "1.0.0"
